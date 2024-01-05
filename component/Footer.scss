@@ -1,0 +1,18 @@
+.footer {
+  background-color: #253551;
+
+  &--wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer--card {
+  &__title {
+    color: #ffffff;
+  }
+
+  &__details {
+    color: #ffffff;
+  }
+}
