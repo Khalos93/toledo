@@ -3,10 +3,18 @@
 
 .section {
   background-color: #253551;
+  text-align: center;
+  padding-bottom: 2rem;
+
   &__title {
+    width: 90%;
+    margin: 0rem auto;
+    padding-top: 1rem;
     color: #ffffff;
   }
   &__desc {
+    width: 50%;
+    margin: 3rem auto;
     color: #ffffff;
   }
   &__link {

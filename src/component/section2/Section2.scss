@@ -1,0 +1,36 @@
+@use '../../../style/partials/variables' as *;
+@use '../../../style/partials/mixins' as *;
+
+.section2 {
+  width: 100%;
+
+  &__title {
+    width: 55%;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 2.4rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+}
+
+.section2__pic {
+  height: 60%;
+  width: 60%;
+  margin: 2rem auto;
+
+  @include tablet {
+    height: 24%;
+    width: 24%;
+    margin: 2rem auto;
+  }
+}
