@@ -1,0 +1,36 @@
+@use '../../../style/partials/variables' as *;
+@use '../../../style/partials/mixins' as *;
+
+.header {
+  &--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  border-radius: 50%;
+  height: 7rem;
+}
+
+.header--nav {
+  display: none;
+
+  @include tablet {
+    display: block;
+  }
+
+  &__link {
+  }
+}
+
+.header--menu {
+  @include tablet {
+    display: none;
+  }
+}
+
+.menu-icon {
+  height: 4rem;
+}

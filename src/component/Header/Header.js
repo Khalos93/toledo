@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../asset/icons/logo.jpeg';
-import menuIcon from '../asset/icons/menu-icon.png';
+import logo from '../../asset/icons/logo.jpeg';
+import menuIcon from '../../asset/icons/menu-icon.png';
 import './Header.scss';
 
 function Header() {
