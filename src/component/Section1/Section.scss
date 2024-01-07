@@ -1,0 +1,18 @@
+@use '../../../style/partials/variables' as *;
+@use '../../../style/partials/mixins' as *;
+
+.section {
+  background-color: #253551;
+  &__title {
+    color: #ffffff;
+  }
+  &__desc {
+    color: #ffffff;
+  }
+  &__link {
+  }
+}
+
+.section__logo {
+  height: 5rem;
+}
