@@ -18,11 +18,28 @@
   display: none;
 
   @include tablet {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 
   &__link {
+    font-weight: 100;
+    color: black;
+    margin-left: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 0.5rem 0.5rem;
+
+    font-size: 2rem;
+
+    &:hover {
+      border-bottom: solid 1.5px black;
+    }
   }
+}
+
+.social--media__logo {
+  height: 3rem;
 }
 
 .header--menu {
