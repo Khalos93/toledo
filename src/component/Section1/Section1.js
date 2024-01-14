@@ -9,7 +9,7 @@ function Section1() {
       <h3 className="section__title">
         LOCATED IN LONDON AUTHENTIC ITALIAN PIZZA MADE
       </h3>
-      <p className="section__desc">ORDER HERE FOR DELIVERY</p>
+      <p className="section__desc">CLICK HERE FOR DELIVERY</p>
       <Link
         className="section__link"
         to={

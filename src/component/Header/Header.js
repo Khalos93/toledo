@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../asset/icons/logo.jpeg';
 import menuIcon from '../../asset/icons/menu-icon.png';
@@ -8,6 +8,27 @@ import istangramIcon from '../../asset/icons/instagram.png';
 import deliverooBw from '../../asset/icons/deliveroob&w.png';
 
 function Header() {
+  const [homeLink, setHomeLink] = useState('active');
+  const [storyLink, setStoryLink] = useState(null);
+  const [menuLink, setMenuLink] = useState(null);
+
+  function activeLink(e, setHomeLink, setStoryLink, setMenuLink) {
+    if (e.target.text === 'Home') {
+      setHomeLink('active');
+      setStoryLink(null);
+      setMenuLink(null);
+    } else if (e.target.text === 'Story') {
+      setStoryLink('active');
+      setHomeLink(null);
+      setMenuLink(null);
+    } else if (e.target.text === 'Menu') {
+      setMenuLink('active');
+      setHomeLink(null);
+      setStoryLink(null);
+    } else {
+      return;
+    }
+  }
   return (
     <header className="header">
       <div className="header--wrapper">
@@ -15,11 +36,31 @@ function Header() {
           <img className="logo" src={logo} alt="pizzeria toledo logo" />
         </Link>
         <nav className="header--nav">
-          <Link to={'/'} className="header--nav__link">
+          <Link
+            to={'/'}
+            className={`header--nav__link ${homeLink}`}
+            onClick={e => {
+              activeLink(e, setHomeLink, setStoryLink, setMenuLink);
+            }}
+          >
             Home
           </Link>
-          <Link className="header--nav__link">Story</Link>
-          <Link className="header--nav__link">Menu</Link>
+          <Link
+            className={`header--nav__link ${storyLink}`}
+            onClick={e => {
+              activeLink(e, setHomeLink, setStoryLink, setMenuLink);
+            }}
+          >
+            Story
+          </Link>
+          <Link
+            className={`header--nav__link ${menuLink}`}
+            onClick={e => {
+              activeLink(e, setHomeLink, setStoryLink, setMenuLink);
+            }}
+          >
+            Menu
+          </Link>
           <Link
             to={
               'https://deliveroo.co.uk/menu/london/woolwich-common/pizzeria-toledo-47-herbert-road'
