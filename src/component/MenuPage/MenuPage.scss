@@ -1,0 +1,28 @@
+@use '../../../style/partials/variables' as *;
+@use '../../../style/partials/mixins' as *;
+
+.menu {
+  width: 100%;
+
+  &__title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid grey;
+  }
+}
+
+.div-to-flex {
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

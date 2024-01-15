@@ -13,6 +13,10 @@
   }
 }
 
+.logo__link {
+  margin-left: 2%;
+}
+
 .logo {
   border-radius: 50%;
   height: 7rem;
@@ -24,6 +28,7 @@
   @include tablet {
     display: flex;
     align-items: center;
+    margin-right: 2%;
   }
 
   &__link {
@@ -47,6 +52,8 @@
 }
 
 .header--menu {
+  margin-right: 2%;
+
   @include tablet {
     display: none;
   }

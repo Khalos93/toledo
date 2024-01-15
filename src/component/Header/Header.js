@@ -32,7 +32,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header--wrapper">
-        <Link to={'/'}>
+        <Link className="logo__link" to={'/'}>
           <img className="logo" src={logo} alt="pizzeria toledo logo" />
         </Link>
         <nav className="header--nav">
@@ -46,6 +46,7 @@ function Header() {
             Home
           </Link>
           <Link
+            to={'/story'}
             className={`header--nav__link ${storyLink}`}
             onClick={e => {
               activeLink(e, setHomeLink, setStoryLink, setMenuLink);
@@ -54,6 +55,7 @@ function Header() {
             Story
           </Link>
           <Link
+            to={`/menu`}
             className={`header--nav__link ${menuLink}`}
             onClick={e => {
               activeLink(e, setHomeLink, setStoryLink, setMenuLink);

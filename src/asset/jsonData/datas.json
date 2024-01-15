@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Marinara",
+    "image": "",
+    "description": "Tomato sauce, garlic, oregano, extra virgin olive oil, and basil."
+  },
+  {
+    "id": 2,
+    "title": "Margherita",
+    "image": "/src/asset/pictures/pic2.png",
+    "description": "Tomato sauce, mozzarella, grated cheese, basil, and extra virgin olive oil."
+  },
+  {
+    "id": 3,
+    "title": "Ortolana",
+    "image": "",
+    "description": "Margherita base, roasted peppers, roasted aubergines, and roasted courgettes."
+  },
+  {
+    "id": 4,
+    "title": "Napoli",
+    "image": "../pictures/pic4.png",
+    "description": "Margherita base, anchovies, capers, black olives, and oregano."
+  },
+  {
+    "id": 5,
+    "title": "Bufalina",
+    "image": "../pictures/pic8.png",
+    "description": "Tomato sauce, buffalo mozzarella, grated cheese, basil, and olive oil."
+  },
+  {
+    "id": 6,
+    "title": "4 Formaggi",
+    "image": "../pictures/pic9.png",
+    "description": "Ricotta, Parmesan, Gorgonzola, mozzarella, and black pepper."
+  },
+  {
+    "id": 7,
+    "title": "Diavola",
+    "image": "",
+    "description": "Margherita base, Neapolitan salami, and chilli flakes."
+  },
+  {
+    "id": 8,
+    "title": "Tartufata",
+    "image": "",
+    "description": "Mushrooms, buffalo mozzarella, Parmesan shavings, and truffle oil."
+  },
+  {
+    "id": 9,
+    "title": "Boscaiola",
+    "image": "../pictures/pic1.png",
+    "description": "Margherita base, porchetta ham from Ariccia D.O.P., mushrooms"
+  },
+  {
+    "id": 10,
+    "title": "Capricciosa",
+    "image": "",
+    "description": "Margherita base, ham, mushrooms, black olives, and artichokes."
+  },
+  {
+    "id": 11,
+    "title": "Salsiccia & Friarielli",
+    "image": "",
+    "description": "Neapolitan wild broccoli, fresh sausage,grated cheese, smoked provola, basil, extra Virgin olive oil"
+  },
+  {
+    "id": 12,
+    "title": "Sandro",
+    "image": "",
+    "description": "Ricotta base, aubergines, nduja sausage, mozzarella, cherry datterini tomatoes, grated cheese, basil, extra Virgin olive oil"
+  },
+  {
+    "id": 13,
+    "title": "Pepperhoney",
+    "image": "",
+    "description": "Margherita base, smoked paprika pepperoni, caramelised onions, drizzled with Hot Star chilly honey"
+  },
+  {
+    "id": 14,
+    "title": "Tuna",
+    "image": "",
+    "description": "Mozzarella base, caramelised onion, tuna, capers, and black olive."
+  },
+  {
+    "id": 15,
+    "title": "Calzone Veg",
+    "image": "",
+    "description": "Filled with ricotta, peppers, courgettes, aubergines, mozzarella, and black pepper."
+  },
+  {
+    "id": 16,
+    "title": "Calabria vs Puglia",
+    "image": "../pictures/pic6.png",
+    "description": "Tomato sauce, smoked provola mozzarella, 'nduja, burrata, basil, grated cheese, and extra virgin olive oil."
+  },
+  {
+    "id": 17,
+    "title": "Calzone Meat",
+    "image": "",
+    "description": "Filled with ricotta, salami, tomato, grated cheese, mozzarella, and black pepper."
+  },
+  {
+    "id": 18,
+    "title": "Brooklyn",
+    "image": "../pictures/pic7.png",
+    "description": "Margherita base, smoked paprika pepperoni, Gorgonzola, jalapeño, and black olives."
+  },
+  {
+    "id": 19,
+    "title": "Meat Feast",
+    "image": "../pictures/pic3.png",
+    "description": "Margherita base, ham, sausage, salami, and porchetta."
+  },
+  {
+    "id": 20,
+    "title": "Parma",
+    "image": "",
+    "description": "Mozzarella base, Parma ham, rocket, cherry tomatoes, and Parmesan shaving."
+  }
+]

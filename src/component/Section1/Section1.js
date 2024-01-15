@@ -6,9 +6,7 @@ import './Section.scss';
 function Section1() {
   return (
     <section className="section">
-      <h3 className="section__title">
-        LOCATED IN LONDON AUTHENTIC ITALIAN PIZZA MADE
-      </h3>
+      <h3 className="section__title">AUTHENTIC NAPOLITAN PIZZA IN LONDON</h3>
       <p className="section__desc">CLICK HERE FOR DELIVERY</p>
       <Link
         className="section__link"
